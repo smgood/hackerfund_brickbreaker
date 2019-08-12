@@ -51,7 +51,7 @@ function movePaddle(event) {
 
 function moveBallWithPaddle() {
   ball.style.left = paddle.offsetLeft + (paddle.offsetWidth - ball.offsetWidth)/2 + "px";
-  ball.style.top = paddle.offsetTop - paddle.offsetHeight + "px";
+  ball.style.top = paddle.offsetTop - ball.offsetHeight + "px";
 }
 
 function startGame() {
